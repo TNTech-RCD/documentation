@@ -16,7 +16,7 @@ specify for your requested partition.
 | bigmem          | 1-00:00:00         | 7-00:00:00         |
 | hugemem         | 1-00:00:00         | 7-00:00:00         |
 
-_The formats above read as `days-:hours:minutes:seconds`._
+_The formats above read as `days-hours:minutes:seconds`._
 
 ## My Job Exceeded the Time Limit
 
