@@ -1,3 +1,23 @@
+## Time Limits By Partition
+
+Each job on the cluster has a time limit associated
+with it, deciding the maximum amount of time it is allowed to
+run. Below you will find the time limit set if not specified
+(the default time limit) and the maximum time limit you can
+specify for your requested partition.
+
+| Partition       | Default Time Limit | Maximum Time Limit |
+|-----------------|--------------------|--------------------|
+| batch-impulse   | 1-00:00:00         | 7-00:00:00         |
+| batch-warp      | 1-00:00:00         | 7-00:00:00         |
+| any-interactive | 02:00:00           | 04:00:00           |
+| interactive     | 02:00:00           | 04:00:00           |
+| gpu-interactive | 02:00:00           | 04:00:00           |
+| bigmem          | 1-00:00:00         | 7-00:00:00         |
+| hugemem         | 1-00:00:00         | 7-00:00:00         |
+
+_The formats above read as `days-:hours:minutes:seconds`._
+
 ## My Job Exceeded the Time Limit
 
 If your job reports a 'TIMEOUT' state, your job has been prematurely stopped because your
@@ -13,6 +33,5 @@ To specify a new time limit, use the '--time' SLURM directive:
 --time=1-00:00:00 # For 1 day
 ```
 
-_Note that there are time limits imposed on our partitions. See <KB Article> for more._
-
-##
+_Note that there are maximum time limits imposed depending on your
+partition. See the section above._
