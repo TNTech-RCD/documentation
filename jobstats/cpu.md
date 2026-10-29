@@ -31,7 +31,7 @@ a combination of the `--ntasks` and `--cpus-per-task` parameters.
 ```
 
 In lowering the amount of requested resources, you will find your jobs have
-an easier time starting quicker, have more opportunities to run in general,
+an easier time starting earlier, have more opportunities to run in general,
 and others' jobs will have more opportunities to be scheduled.
 
 
@@ -55,7 +55,7 @@ parameters to specify one node and one node only.
 ```
 
 In lowering the amount of requested resources, you will find your jobs have
-an easier time starting quicker, have more opportunities to run in general,
+an easier time starting earlier, have more opportunities to run in general,
 and others' jobs will have more opportunities to be scheduled.
 
 If you are sure your job can run across multiple nodes, but for
