@@ -1,13 +1,13 @@
 ## Available GPU Resources
 
-Below is the available GPU resources we offer per partition.
+Below are the maximum GPU resources we offer per job for a given partition.
 To get the total available GPUs in a partition, multiply
 the available GPUs per node by the amount of available nodes.
 
 Note that `batch-warp` and `any-interactive` will redirect to
 `gpu-warp` and `gpu-interactive` if a GPU is allocated, respectively.
 
-| Partition       | Avalable GPUs per node | Available nodes | GPU type |
+| Partition       | Maximum GPUs per node  | Maximum nodes   | GPU type |
 | --------------- | ---------------------- | --------------- | -------- |
 | gpu-warp        | 2                      | 10              | a100     |
 | gpu-interactive | 2                      | 2               | a100     |
