@@ -66,7 +66,7 @@ with the GPU:
    other, less obvious bottlenecks as to why your job is
    not effectively using its resources.
 
-Regardless of which scenario you find yourelf in, you can
+Regardless of which scenario you find yourself in, you can
 get help with diagnosing and working to solve your
 resource usage issues by scheduling a meeting
 with us at <https://www.rcd.tntech.edu/bookings/>.
